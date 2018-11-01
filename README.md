@@ -3,7 +3,7 @@ A restaurant app that lets users input the names of burgers they'd like to eat a
 
 ## Demo 
 
-heroku link
+https://desolate-shelf-92575.herokuapp.com/
 
 ## Technologies
 MySQL, Node, Express, Handlebars. 
