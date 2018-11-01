@@ -1,0 +1,15 @@
+/* font-family: 'Spicy Rice', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Seaweed Script', cursive; */
+
+body {
+    font-family: 'Spicy Rice', cursive;
+    background-image: url("/assets/img/alice-pasqual-432788-unsplash.jpg");
+    /*Photo by Alice Pasqual on Unsplash*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    color: red;
+}

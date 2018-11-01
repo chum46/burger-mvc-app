@@ -1,0 +1,42 @@
+<div class="jumbotron text-center bg-primary text-white">
+	<h1 class="display-4" id="title">Eat-Da-Burger<img src="/assets/img/if_burger_1760342.png"></h1>
+</div>
+<div class="container">
+	<section class="row">
+		<div class="col-md-7 col-left">
+			<table>
+				{{#each burgers}}
+				{{#unless devoured}}
+				{{> burgers/burgerlist}}
+				{{/unless}}
+				{{/each}}
+			</table>
+		</div>
+		<div class="col-md-5 col-right">
+			<table>
+				{{#each burgers}}
+				{{#if devoured}}
+				{{> burgers/devouredlist}}
+				{{/if}}
+				{{/each}}
+			</table>
+		</div>
+	</section>
+
+
+	<div class="row mt-4">
+		<div class="col-md-12">
+			<h3>Place an Order</h3>
+		</div>
+		<!--Create/add burger form-->
+		<center>
+			<form class="create-form">
+				<div class="form-group">
+					<label for="burger">Enter a Burger:</label>
+					<input type="text" class="form-control" id="burgerToGo" placeholder="">
+				</div>
+				<button class="btn btn-primary" type="submit">Order</button>
+			</form>
+		</center>
+	</div>
+</div>
