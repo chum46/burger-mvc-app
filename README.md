@@ -1,19 +1,6 @@
 # Burger MVC Application 
 A restaurant app that lets users input the names of burgers they'd like to eat and digitally devour them. Follows MVC design patterns; uses Node and MySQL to query and route data, and Handlebars to generate the HTML.
 
-## Table of contents
-  * [Live](#live)
-  * [About this project](#about-this-project)
-  * [Getting started](#getting-started)
-  * [Structure of the project](#structure-of-project)
-  * [Screenshots](#screenshots)
-  * [Technologies used to create app](#technologies-used)
-  	* [Backend technologies](#Backend)
-  	* [Frontend technologies](#Frontend)
-  * [Design improvements](#design-improvements)
-  * [Acknowledgments](#Acknowledgments)
-  * [Issues](#Issues)
-
 ## Demo 
 
 heroku link
